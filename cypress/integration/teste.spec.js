@@ -78,7 +78,7 @@ describe('Tricentis Vehicle Insurance',function() {
     cy.get('button[id="nextenterproductdata"]').click();
 
     it('Preencher data de inicio', );
-    cy.get('input[id="startdate"]').type('09/23/2022');
+    cy.get('input[id="startdate"]').type('09/26/2022');
 
     it('Selecionar soma do seguro', );
     cy.get('select[id="insurancesum"]').select('3.000.000,00');
